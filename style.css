@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("led.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: rgba(131, 3, 3, 0.5);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #cb3244;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+nav a:hover {
+  background-color: #0e2ece;
+  color: #0671f4;
+}
+
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: rgba(215, 16, 205, 0.5);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px rgba(10, 31, 171, 0.25);
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  color: #590967;
+  border-bottom: 2px solid #3e17ac;
+  padding-bottom: 5px;
+}
+
+article {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-left: 5px solid #b00130;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+mark {
+  color: rgb(255, 255, 255);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+#dnevna mark { background-color: rgb(75, 18, 18); color: rgb(5, 183, 73); }
+#banja mark  { background-color: rgb(5, 199, 199); color: rgb(241, 47, 47); }
+#detska mark { background-color: rgb(255, 192, 203); color: rgb(199, 13, 124); }
+#terasa mark { background-color: rgb(255, 255, 0); color: rgb(6, 209, 23); }
+
+meter,progress {
+  width: 150px;
+  height: 16px;
+}
+
+input[type="range"] {
+  vertical-align: middle;
+}
+
+details {
+  background-color: #fff4e5;
+  border: 1px solid #e31be3;
+  border-radius: 6px;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+summary {
+  cursor: pointer;
+  color: #200888;
+}
+
+details[open] {
+  background-color: #ff8adc;
+}
+
+hr {
+  display: none;
+}
